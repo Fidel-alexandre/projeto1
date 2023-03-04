@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+li{
+    list-style: none;
+    color: #05d9e8;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "Kdam Thmor Pro";
+}
+
+li:hover{
+    color: #defe47;
+}
+
+#logo{
+    width: 160px;
+    height: auto    ;
+}
+
+#banner{
+    background-image: url("https://files.catbox.moe/giq722.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+#trailer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+.content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trailer{
+    width: 70%;
+    margin-left: 70px;
+
+}
+#sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+
+}
+.description{
+    color: #defe47;
+    font-size: 22px;
+    font-family:"Kdam Thmor Pro" sans-serif ;
+    width: 70%;
+    margin-top: 60px;
+}
+.button{
+    width: 200px;
+    height: 60px;
+    background-color:#05d9e8 ;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 23px;
+    font-family:"Kdam Thmor Pro" sans-serif ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+.button:hover{
+    background-color: #defe47;
+    color: black;
+
+}
+.person-game{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+}
+.card-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    margin-top: 70px;
+}
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: black;
+    font-size: 23px;
+    font-family:"Kdam Thmor Pro" sans-serif ;
+}
+
+.person-1{
+    background-image: url("https://iv1.lisimg.com/image/22433195/716full-cyberpunk-2077-artwork.jpg");
+}
+.person-2{
+    background-image: url("https://static.wikia.nocookie.net/cyberpunk/images/6/68/CP2077_Kitsch_Poster.jpg/revision/latest/scale-to-width-down/340?cb=20210428163614");
+}
+.person-3{
+    background-image: url("https://cdn-l-mkt.cdprojektred.com/image/Cyberpunk2077_Styles-Neomilitarism-RGB_small_8hg2wr7krz7d72gd.png");
+}
+
+
